@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* NAVBAR */
+nav {
+    background: #111827;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+/* HEADER */
+header {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e40af;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 35px 0;
+}
+
+/* SECTION TITLE */
+h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    border-left: 3px solid #2563eb;
+    padding-left: 8px;
+}
+
+/* SKILLS */
+.skill-box {
+    margin-top: 10px;
+}
+
+.skill-box span {
+    display: inline-block;
+    background: #e5e7eb;
+    padding: 6px 12px;
+    margin: 4px 4px 0 0;
+    border-radius: 15px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.skill-box span:hover {
+    background: #2563eb;
+    color: white;
+}
+
+/* PROJECT CARD */
+.project-card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+}
+
+.project-card h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.project-card p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .container {
+        padding: 25px 0;
+    }
+}
+
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
